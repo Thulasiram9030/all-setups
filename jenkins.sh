@@ -11,5 +11,5 @@ yum install java-21-amazon-corretto -y
 yum install jenkins -y
 
 #STEP-4: RESTARTING JENKINS (when we download service it will on stopped state)
-systemctl start jenkins
-systemctl status jenkins
+systemctl start jenkins.service
+systemctl status jenkins.service
